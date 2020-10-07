@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: black;
+  padding: 10px;
+}
+
+header .contact {
+  margin-right: 20%;
+}
+
+header .contact a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+header .contact a:hover {
+  color: blanchedalmond;
+  border-bottom: 1px solid brown;
+}
+
+header .icon-group {
+  position: relative;
+  right: 5%;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: blanchedalmond;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: tomato;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4%;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.navbar ul li a:hover {
+  color: blanchedalmond;
+  border-bottom: 1px solid firebrick;
+}
+
+.jumbotron {
+  background: url("alessio-zaccaria-MplUOXqEUK0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 0px 0px 100px 100px;
+}
+
+.jumbotron::before {
+  opacity: 0.9;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px tomato;
+}
+
+.jumbotron p {
+  margin-top: 3%;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  color: black;
+  -webkit-animation-name: emad;
+          animation-name: emad;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: inherit;
+          animation-timing-function: inherit;
+}
+
+@-webkit-keyframes emad {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-bottom: 10%;
+  }
+}
+
+@keyframes emad {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-bottom: 10%;
+  }
+}
+
+.jumbotron .BTN-GROUP {
+  margin-top: 4%;
+  text-align: center;
+}
+
+.BTN-GROUP a {
+  margin-right: 2%;
+}
+
+.BTN-GROUP a:hover {
+  background: crimson;
+  color: white;
+}
+
+.text-ni {
+  position: absolute;
+  margin-top: 3%;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.text-ni p {
+  color: black;
+  -webkit-animation-name: emad2;
+          animation-name: emad2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: initial;
+          animation-timing-function: initial;
+  animation-direction: reverse;
+}
+
+@-webkit-keyframes emad2 {
+  0% {
+    margin-left: 10px;
+  }
+  100% {
+    margin-right: 100px;
+  }
+}
+
+@keyframes emad2 {
+  0% {
+    margin-left: 10px;
+  }
+  100% {
+    margin-right: 100px;
+  }
+}
+
+.img-ni {
+  position: relative;
+  margin-top: 3%;
+  left: 60%;
+}
+
+.img-ni img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-name: emad1;
+          animation-name: emad1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 6;
+          animation-iteration-count: 6;
+  animation-direction: reverse;
+  -webkit-animation-timing-function: initial;
+          animation-timing-function: initial;
+}
+
+@-webkit-keyframes emad1 {
+  0% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 100px;
+  }
+}
+
+@keyframes emad1 {
+  0% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 100px;
+  }
+}
+
+.container-fluid .nio1 {
+  text-shadow: 2px 2px;
+  border-bottom: 1px solid black;
+  padding-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*# sourceMappingURL=style.css.map */
